@@ -8,9 +8,9 @@ package hrpc
 import (
 	"fmt"
 
-	"github.com/zhanchangbao/hbasegosdk/filter"
-	"github.com/zhanchangbao/hbasegosdk/pb"
-	"google.golang.org/protobuf/proto"
+	"github.com/golang/protobuf/proto"
+	"github.com/zhanchangbao/hbasegosdk/zk/filter"
+	"github.com/zhanchangbao/hbasegosdk/zk/pb"
 )
 
 // CheckAndPut performs a provided Put operation if the value specified

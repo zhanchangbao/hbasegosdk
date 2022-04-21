@@ -11,7 +11,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/zhanchangbao/hbasegosdk/compression"
+	"github.com/zhanchangbao/hbasegosdk/zk/compression"
 )
 
 type compressor struct {

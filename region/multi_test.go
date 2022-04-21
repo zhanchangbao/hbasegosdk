@@ -13,10 +13,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/zhanchangbao/hbasegosdk/hrpc"
-	"github.com/zhanchangbao/hbasegosdk/pb"
-	"github.com/zhanchangbao/hbasegosdk/test"
-	"google.golang.org/protobuf/proto"
+	"github.com/golang/protobuf/proto"
+	"github.com/zhanchangbao/hbasegosdk/zk/hrpc"
+	"github.com/zhanchangbao/hbasegosdk/zk/pb"
+	"github.com/zhanchangbao/hbasegosdk/zk/test"
 )
 
 type bytesSlice [][]byte

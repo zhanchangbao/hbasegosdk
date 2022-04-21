@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhanchangbao/hbasegosdk/filter"
-	"github.com/zhanchangbao/hbasegosdk/test"
+	"github.com/zhanchangbao/hbasegosdk/zk/filter"
+	"github.com/zhanchangbao/hbasegosdk/zk/test"
 )
 
 func TestFamilesOption(t *testing.T) {

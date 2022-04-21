@@ -22,12 +22,12 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/zhanchangbao/hbasegosdk/hrpc"
-	"github.com/zhanchangbao/hbasegosdk/pb"
-	"github.com/zhanchangbao/hbasegosdk/test"
-	"github.com/zhanchangbao/hbasegosdk/test/mock"
+	"github.com/golang/protobuf/proto"
+	"github.com/zhanchangbao/hbasegosdk/zk/hrpc"
+	"github.com/zhanchangbao/hbasegosdk/zk/pb"
+	"github.com/zhanchangbao/hbasegosdk/zk/test"
+	"github.com/zhanchangbao/hbasegosdk/zk/test/mock"
 	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/proto"
 )
 
 func TestErrors(t *testing.T) {

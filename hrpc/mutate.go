@@ -12,8 +12,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/zhanchangbao/hbasegosdk/pb"
-	"google.golang.org/protobuf/proto"
+	"github.com/golang/protobuf/proto"
+	"github.com/zhanchangbao/hbasegosdk/zk/pb"
 )
 
 var attributeNameTTL = "_ttl"

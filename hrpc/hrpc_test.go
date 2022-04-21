@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zhanchangbao/hbasegosdk/filter"
-	"github.com/zhanchangbao/hbasegosdk/pb"
-	"github.com/zhanchangbao/hbasegosdk/test"
-	"google.golang.org/protobuf/proto"
+	"github.com/golang/protobuf/proto"
+	"github.com/zhanchangbao/hbasegosdk/zk/filter"
+	"github.com/zhanchangbao/hbasegosdk/zk/pb"
+	"github.com/zhanchangbao/hbasegosdk/zk/test"
 )
 
 func TestNewGet(t *testing.T) {

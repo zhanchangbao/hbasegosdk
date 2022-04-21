@@ -10,8 +10,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/zhanchangbao/hbasegosdk/filter"
-	"github.com/zhanchangbao/hbasegosdk/pb"
+	"github.com/zhanchangbao/hbasegosdk/zk/filter"
+	"github.com/zhanchangbao/hbasegosdk/zk/pb"
 )
 
 // baseQuery bundles common fields that can be provided for quering requests: Scans and Gets

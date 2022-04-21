@@ -11,11 +11,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/zhanchangbao/hbasegosdk/hrpc"
-	"github.com/zhanchangbao/hbasegosdk/pb"
+	"github.com/golang/protobuf/proto"
+	"github.com/zhanchangbao/hbasegosdk/zk/hrpc"
+	"github.com/zhanchangbao/hbasegosdk/zk/pb"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
-	"google.golang.org/protobuf/proto"
 )
 
 var multiPool = sync.Pool{

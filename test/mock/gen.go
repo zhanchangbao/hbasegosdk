@@ -9,10 +9,10 @@ package mock
 //    go install github.com/golang/mock/mockgen@v1.6.0
 // then run 'go generate' to auto-generate mock_client.
 
-//go:generate mockgen -destination=client.go -package=mock github.com/zhanchangbao/hbasegosdk Client
-//go:generate mockgen -destination=adming_client.go -package=mock github.com/zhanchangbao/hbasegosdk AdminClient
+//go:generate mockgen -destination=client.go -package=mock github.com/zhanchangbao/hbasegosdk/zk Client
+//go:generate mockgen -destination=adming_client.go -package=mock github.com/zhanchangbao/hbasegosdk/zk AdminClient
 //go:generate mockgen -destination=conn.go -package=mock net Conn
-//go:generate mockgen -destination=call.go -package=mock github.com/zhanchangbao/hbasegosdk/hrpc Call
-//go:generate mockgen -destination=zk/client.go -package=mock github.com/zhanchangbao/hbasegosdk/zk Client
-//go:generate mockgen -destination=region/client.go -package=mock github.com/zhanchangbao/hbasegosdk/hrpc RegionClient
-//go:generate mockgen -destination=rpcclient.go -package=mock github.com/zhanchangbao/hbasegosdk RPCClient
+//go:generate mockgen -destination=call.go -package=mock github.com/zhanchangbao/hbasegosdk/zk/hrpc Call
+//go:generate mockgen -destination=zk/client.go -package=mock github.com/zhanchangbao/hbasegosdk/zk/zk Client
+//go:generate mockgen -destination=region/client.go -package=mock github.com/zhanchangbao/hbasegosdk/zk/hrpc RegionClient
+//go:generate mockgen -destination=rpcclient.go -package=mock github.com/zhanchangbao/hbasegosdk/zk RPCClient

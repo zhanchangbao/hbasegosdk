@@ -6,7 +6,7 @@
 package compression
 
 import (
-	"github.com/zhanchangbao/hbasegosdk/compression/snappy"
+	"github.com/zhanchangbao/hbasegosdk/zk/compression/snappy"
 )
 
 // Codec is used to encode and decode chunks of hadoop's sequence file chunks.

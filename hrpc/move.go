@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zhanchangbao/hbasegosdk/pb"
-	"google.golang.org/protobuf/proto"
+	"github.com/golang/protobuf/proto"
+	"github.com/zhanchangbao/hbasegosdk/zk/pb"
 )
 
 // MoveRegion allows to move region to a different RegionServer.

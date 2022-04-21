@@ -14,8 +14,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/zhanchangbao/hbasegosdk/compression"
-	"github.com/zhanchangbao/hbasegosdk/hrpc"
+	"github.com/zhanchangbao/hbasegosdk/zk/compression"
+	"github.com/zhanchangbao/hbasegosdk/zk/hrpc"
 )
 
 // NewClient creates a new RegionClient.

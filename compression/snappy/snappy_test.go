@@ -8,9 +8,9 @@ package snappy_test
 import (
 	"bytes"
 	"errors"
-	"github.com/zhanchangbao/hbasegosdk/compression"
-	"github.com/zhanchangbao/hbasegosdk/compression/snappy"
-	"github.com/zhanchangbao/hbasegosdk/test"
+	"github.com/zhanchangbao/hbasegosdk/zk/compression"
+	"github.com/zhanchangbao/hbasegosdk/zk/compression/snappy"
+	"github.com/zhanchangbao/hbasegosdk/zk/test"
 	"reflect"
 	"strconv"
 	"testing"

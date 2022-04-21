@@ -23,11 +23,11 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 
-	"github.com/zhanchangbao/hbasegosdk/hrpc"
-	"github.com/zhanchangbao/hbasegosdk/internal/observability"
-	"github.com/zhanchangbao/hbasegosdk/pb"
+	"github.com/golang/protobuf/proto"
+	"github.com/zhanchangbao/hbasegosdk/zk/hrpc"
+	"github.com/zhanchangbao/hbasegosdk/zk/internal/observability"
+	"github.com/zhanchangbao/hbasegosdk/zk/pb"
 	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/proto"
 )
 
 // ClientType is a type alias to represent the type of this region client
