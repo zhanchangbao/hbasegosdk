@@ -25,6 +25,7 @@ option java_outer_classname = "RegionServerStatusProtos";
 option java_generic_services = true;
 option java_generate_equals_and_hash = true;
 option optimize_for = SPEED;
+option go_package = "pb";
 
 import "HBase.proto";
 import "ClusterStatus.proto";

@@ -19,6 +19,7 @@ syntax = "proto2";
 option java_package = "org.apache.hadoop.hbase.shaded.ipc.protobuf.generated";
 option java_outer_classname = "TestProcedureProtos";
 option java_generic_services = true;
+option go_package = "pb";
 
 message TestTableDDLStateData {
   required string table_name = 1;
